@@ -1,6 +1,6 @@
-//class example
-// example: Pythagorean Triple Check
-// save file as pyth-triple-intials.cpp  pyth-triple-intials-cwc.cpp)
+// example: Pythagorean Triple Check  class example
+// save file as pyth-triple-intials.cpp  example pyth-triple-intials-cwc.cpp)
+// https://github.com/tritechsc/PythagoreanTriple
 #include <math.h>
 #include <iostream>
 using namespace std;
