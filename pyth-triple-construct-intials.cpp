@@ -1,4 +1,5 @@
 // example: Pythagorean Triple Check  constructor
+//  This gives a better hint on how to display the text output
 // save file as pyth-triple-construct-intials.cpp  example pyth-triple-construct-cwc.cpp )
 // https://github.com/tritechsc/PythagoreanTriple
 #include <iostream>
@@ -9,8 +10,8 @@ class Pythagorean {
     int x, y;
   public:
     Pythagorean (int,int);
-    int ic () {return (x*y);}// change this to return the square root
-    double c () {{return (x*y);}}// change this to return the square root
+    int ic () {return sqrt(x*x + y*y);}// change this to return the square root
+    double c () {{return sqrt(x*x+y*y);}}// change this to return the square root
 };
 Pythagorean::Pythagorean (int a, int b) {
   x = a;
@@ -19,12 +20,16 @@ Pythagorean::Pythagorean (int a, int b) {
 
 int main () {
 
-int a;
+int a,b;
 //*********************
+b = 20;
   for (a = 1; a < 21; a++){
-    Pythagorean triangle (a,4);
+    Pythagorean triangle (a,b);
     //*********************
-    cout << "((a^2 + b^2)^(1/2) = " << triangle.c() <<  "  "<<triangle.ic() << endl;
+    if (triangle.c() == triangle.ic()){
+        cout << "a b c " << a<<" " <<b <<" "<<triangle.c() <<  "  "<<triangle.ic() << endl;
+    }
   }
   return 0;
 }
+
