@@ -17,30 +17,25 @@ void CalcPythagorean::set_values (int x, int y) {
   a = x;
   b = y;
 }
-
 int main () {
   CalcPythagorean triangle;
-
 //*********************
-// Write code to display Pythagorean triples with values of a and b from 1 to 20
-// Be creative and unique with your output.
-    triangle.set_values (3,1);
+    triangle.set_values (3,1);//  triangle.set_values (x,y);  change the arguments to display a Pythagorean Triple
       if(triangle.c()== triangle.ic())
       {
-           cout << "((a^2 + b^2)^(1/2) " << triangle.c() <<  "  "<<triangle.ic() << endl;
+           cout << "((a^2 + b^2)^(1/2) = " << triangle.c() <<  " = "<<triangle.ic() << endl;
       }else
       {
            cout << "Not a Pythagorean triples " << endl;
       }
-
-
   //*********************
-  // Output the results as a text file named
-  // initials-PythagoreanTriples.txt and
-  //upload to google drive in Computer Science Folder
-  //Extra.  Push code back to github.com
+ 
   return 0;
 }
+
+
+
+
 
 
 
