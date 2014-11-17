@@ -32,7 +32,7 @@ b = 20;
   }
   return 0;
 }
-//wire code to display the Pythagorian Tiples with values of a and b ranging from 1 to 199
+//wire code to display the Pythagorian Tiples with values of a and b ranging from 1 to 200
 // Save the output as a text file names initial-pythagorenatiples.txt
 //  Generate the text output as follows: C:\pathtocode\pyth-triple-construct-cwc.exe > pythagorenatiples.txt
 
