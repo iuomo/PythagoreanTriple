@@ -10,8 +10,8 @@ class Pythagorean {
     int x, y;
   public:
     Pythagorean (int,int);
-    int ic () {return sqrt(x*x + y*y);}// change this to return the square root
-    double c () {{return sqrt(x*x+y*y);}}// change this to return the square root
+    int ic () {return sqrt(x*x + y*y);}
+    double c () {return sqrt(x*x+y*y);}
 };
 Pythagorean::Pythagorean (int a, int b) {
   x = a;
@@ -22,7 +22,7 @@ int main () {
 
 int a,b;
 //*********************
-b = 20;
+b = 20; // add a for loop incrementing b
   for (a = 1; a < 21; a++){
     Pythagorean triangle (a,b);
     //*********************
