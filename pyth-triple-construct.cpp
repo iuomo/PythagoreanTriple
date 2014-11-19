@@ -22,14 +22,15 @@ int main () {
 
 int a,b;
 //*********************
-b = 20; // add a for loop incrementing b
-  for (a = 1; a < 21; a++){
+for (b = 1; b <= 1000; b++){
+  for (a = 1; a <= 1000; a++){
     Pythagorean triangle (a,b);
     //*********************
     if (triangle.c() == triangle.ic()){
         cout << "a b c " << a<<" " <<b <<" "<<triangle.c() <<  "  "<<triangle.ic() << endl;
     }
-  }
+  }/end a
+}/end b
   return 0;
 }
 //wire code to display the Pythagorian Tiples with values of a and b ranging from 1 to 200
